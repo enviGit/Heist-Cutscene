@@ -7982,19 +7982,15 @@ MonoBehaviour:
     roll: 0
   - position: {x: -3.3361712, y: -1.213957, z: -28.036657}
     roll: 0
-  - position: {x: -5.5923862, y: -1.213957, z: -27.981163}
+  - position: {x: -6.6031, y: -1.2139571, z: -26.793547}
     roll: 0
-  - position: {x: -5.7795362, y: -1.213957, z: -29.055794}
+  - position: {x: -6.5891323, y: -1.213957, z: -23.312384}
     roll: 0
-  - position: {x: -7.2081366, y: -1.2139571, z: -29.21417}
+  - position: {x: -5.9365215, y: -1.213957, z: -18.73779}
     roll: 0
-  - position: {x: -7.0693274, y: -1.213957, z: -23.312384}
+  - position: {x: -8.373218, y: -1.213957, z: -18.521116}
     roll: 0
-  - position: {x: -6.930518, y: -1.213957, z: -18.73779}
-    roll: 0
-  - position: {x: -8.820704, y: -1.213957, z: -18.521116}
-    roll: 0
-  - position: {x: -8.502012, y: -1.213957, z: -16.634493}
+  - position: {x: -9.359173, y: -1.213957, z: -16.634493}
     roll: 0
   - position: {x: -7.207184, y: -1.213957, z: -15.218195}
     roll: 0
@@ -8028,7 +8024,7 @@ MonoBehaviour:
     roll: 0
   - position: {x: -2.2654276, y: -1.213957, z: -23.261715}
     roll: 0
-  - position: {x: 0.43008614, y: -1.1969639, z: -19.02901}
+  - position: {x: 0.43008614, y: -1.191003, z: -19.02901}
     roll: 0
   - position: {x: 3.1255999, y: -1.0911585, z: -14.796307}
     roll: 0
@@ -8036,15 +8032,15 @@ MonoBehaviour:
     roll: 0
   - position: {x: 5.4329767, y: -1.2008898, z: -4.5484467}
     roll: 0
-  - position: {x: 5.925271, y: -1.2840347, z: -3.6270046}
+  - position: {x: 5.925271, y: -1.6488492, z: -3.2924042}
     roll: 0
-  - position: {x: 6.7670527, y: -1.9781039, z: -1.4395409}
+  - position: {x: 6.7670527, y: -2.1089349, z: -1.4395409}
     roll: 0
   - position: {x: 7.0541797, y: -2.1060095, z: 0.46082115}
     roll: 0
-  - position: {x: 7.0401297, y: -2.200591, z: 1.0185223}
+  - position: {x: 7.0401297, y: -2.145411, z: 1.0185223}
     roll: 0
-  - position: {x: 5.9587793, y: -2.1846676, z: 2.4826813}
+  - position: {x: 5.9587793, y: -2.1846676, z: 3.1051178}
     roll: 0
   - position: {x: 3.1131268, y: -2.168744, z: 3.0083656}
     roll: 0
@@ -13397,8 +13393,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398174958}
-  m_LocalRotation: {x: -0.42499223, y: 0.29934692, z: -0.60768306, w: 0.60041183}
-  m_LocalPosition: {x: 0.0922, y: 0.032, z: -0.0578}
+  m_LocalRotation: {x: -0.49499497, y: 0.37117225, z: -0.56667304, w: 0.5441441}
+  m_LocalPosition: {x: 0.109, y: 0.038, z: -0.032}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13407,7 +13403,7 @@ Transform:
   - {fileID: 398395450}
   m_Father: {fileID: 4815463589833365}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -175.324, y: -122.048996, z: 86.72}
+  m_LocalEulerAnglesHint: {x: -173.222, y: -103.655, z: 82.345}
 --- !u!1001 &399882121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19383,8 +19379,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610758471}
-  m_LocalRotation: {x: -0.0022804555, y: 0.59426594, z: 0.0016850162, w: 0.80426365}
-  m_LocalPosition: {x: 10.120335, y: -0.45656133, z: 36.371456}
+  m_LocalRotation: {x: 0.000017691815, y: 0.99991506, z: 0.0013648029, w: -0.012961807}
+  m_LocalPosition: {x: 11.452267, y: 0.6103263, z: 19.504128}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22009,8 +22005,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679438716}
-  m_LocalRotation: {x: 0.000051829375, y: 0.9999068, z: -0.0039661005, w: 0.013066876}
-  m_LocalPosition: {x: 6.0483685, y: -0.38801128, z: 33.740555}
+  m_LocalRotation: {x: -0.0037177894, y: 0.67565686, z: 0.0034074245, w: 0.737199}
+  m_LocalPosition: {x: 8.346121, y: 0.53672576, z: 27.583946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24872,8 +24868,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793137410}
-  m_LocalRotation: {x: -0.0011678492, y: 0.99836874, z: 0.052605074, w: 0.022164095}
-  m_LocalPosition: {x: 6.0483685, y: -0.45636284, z: 33.09962}
+  m_LocalRotation: {x: -0.0002405563, y: 0.9989864, z: 0.0053772344, w: 0.04469073}
+  m_LocalPosition: {x: 9.93088, y: 0.5606544, z: 27.2225}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30845,14 +30841,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -12.13, y: 1.326, z: -3.74}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.74, y: 1.326, z: 2.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &963019407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42146,8 +42142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayCaseToAnimate: {fileID: 735290513}
   jewellery: {fileID: 457648531}
-  secondsForAnimatedDisplayCase: 1
-  millisecondsForAnimatedDisplayCase: 0
+  secondsForAnimatedDisplayCase: 28
+  millisecondsForAnimatedDisplayCase: 110
   restItems:
   - {fileID: 421089052}
   - {fileID: 2107043759}
@@ -42157,7 +42153,7 @@ MonoBehaviour:
   - {fileID: 735290513}
   - {fileID: 813141523}
   - {fileID: 1872518663}
-  secondsForRestItems: 3
+  secondsForRestItems: 31
   millisecondsForRestItems: 0
 --- !u!1001 &1396507158
 PrefabInstance:
@@ -61050,8 +61046,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075586541}
-  m_LocalRotation: {x: -0.00008910135, y: 0.7755849, z: 0.00010947547, w: 0.6312433}
-  m_LocalPosition: {x: -8.575696, y: 0.115620375, z: 2.1452465}
+  m_LocalRotation: {x: 0.000016270667, y: 0.6996033, z: -0.000015930736, w: 0.7145315}
+  m_LocalPosition: {x: 9.975883, y: 0.11957532, z: -0.74823}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -81544,8 +81540,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 3765087983565570811}
-  waitTimeSeconds: 8
-  waitTimeMilliseconds: 700
+  waitTimeSeconds: 12
+  waitTimeMilliseconds: 0
 --- !u!95 &95433812369504437
 Animator:
   serializedVersion: 5

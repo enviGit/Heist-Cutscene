@@ -3,7 +3,7 @@ using UnityEngine;
 public class WeaponToggle : MonoBehaviour
 {
     public GameObject weapon;
-    public float waitTimeSeconds = 8.7f;
+    public float waitTimeSeconds;
     public int waitTimeMilliseconds;
     private float waitTime;
     private float timer;

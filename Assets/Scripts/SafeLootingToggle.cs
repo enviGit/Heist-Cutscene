@@ -4,7 +4,7 @@ public class SafeLootingToggle : MonoBehaviour
 {
     public GameObject beforeLooting;
     public GameObject lootingInProgress;
-    public float lootingWaitTimeSeconds = 3f;
+    public float lootingWaitTimeSeconds;
     public int lootingWaitTimeMilliseconds;
     private float lootingTotalWaitTime;
     private float timer;
