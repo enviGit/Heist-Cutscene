@@ -57,10 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\JewelleryToggle.cs" />
-    <Compile Include="Assets\Scripts\SoundController.cs" />
+    <Compile Include="Assets\Scripts\TEMP_SoundController.cs" />
     <Compile Include="Assets\Samples\Sequences\1.0.4\Scene Management\Script\AssignDefaultMaterial.cs" />
-    <Compile Include="Assets\Scripts\FilmGrainController.cs" />
-    <Compile Include="Assets\Scripts\DoorToggle.cs" />
+    <Compile Include="Assets\Scripts\TEMP_FilmGrainController.cs" />
+    <Compile Include="Assets\Scripts\SafeLootingToggle.cs" />
     <Compile Include="Assets\Scripts\WeaponToggle.cs" />
     <Compile Include="Assets\Scripts\RobersToggle.cs" />
     <Compile Include="Assets\Scripts\BagsToggle.cs" />

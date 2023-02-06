@@ -18,7 +18,6 @@ public class JewelleryToggle : MonoBehaviour
     {
         waitTimeForAnimatedDisplayCase = secondsForAnimatedDisplayCase + millisecondsForAnimatedDisplayCase / 1000f;
         Invoke("DisplayCaseToAnimateToggle", waitTimeForAnimatedDisplayCase);
-
         waitTimeForRestItems = secondsForRestItems + millisecondsForRestItems / 1000f;
         Invoke("RestItemsToggle", waitTimeForRestItems);
     }
@@ -29,7 +28,7 @@ public class JewelleryToggle : MonoBehaviour
     }
     void RestItemsToggle()
     {
-        foreach(GameObject item in restItems)
+        foreach (GameObject item in restItems)
         {
             item.transform.Find("SM_Prop_DisplayCase_Glass_01").gameObject.SetActive(false);
             item.transform.Find("SM_Prop_DisplayCase_Glass_1_Broken").gameObject.SetActive(true);

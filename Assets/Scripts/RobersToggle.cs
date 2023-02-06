@@ -18,8 +18,8 @@ public class RobersToggle : MonoBehaviour
     }
     void TurnOn()
     {
-	    clown.SetActive(true);
-	    panda.SetActive(true);
-	    paperBag.SetActive(true);
+        clown.SetActive(true);
+        panda.SetActive(true);
+        paperBag.SetActive(true);
     }
 }
