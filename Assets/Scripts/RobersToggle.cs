@@ -10,7 +10,10 @@ public class RobersToggle : MonoBehaviour
 
     void Start()
     {
-	    waitTime = waitTimeSeconds + waitTimeMilliseconds / 1000f;
+        clown.SetActive(false);
+        panda.SetActive(false);
+        paperBag.SetActive(false);
+        waitTime = waitTimeSeconds + waitTimeMilliseconds / 1000f;
         Invoke("TurnOn", waitTime);
     }
     void TurnOn()
