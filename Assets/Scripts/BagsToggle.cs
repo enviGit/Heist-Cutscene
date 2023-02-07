@@ -6,6 +6,8 @@ public class BagsToggle : MonoBehaviour
     public GameObject beforeLooting;
     private GameObject bagAfter;
     public GameObject lootingInProgress;
+    public GameObject rifle;
+    public GameObject rifleAfter;
     public float waitTimeSeconds;
     public int waitTimeMilliseconds;
     private float waitTime;
@@ -20,13 +22,19 @@ public class BagsToggle : MonoBehaviour
     void Update()
     {
         if (beforeLooting.activeInHierarchy == false)
+        {
             bag.SetActive(false);
+            rifle.SetActive(false);
+        }
         if (lootingInProgress.activeInHierarchy == true)
         {
             timer += Time.deltaTime;
 
             if (timer > waitTime)
+            {
                 bagAfter.SetActive(true);
+                rifleAfter.SetActive(true);
+            }
         }
     }
 }
