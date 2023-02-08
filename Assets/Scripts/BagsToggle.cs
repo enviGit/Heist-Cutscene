@@ -18,6 +18,7 @@ public class BagsToggle : MonoBehaviour
         waitTime = waitTimeSeconds + waitTimeMilliseconds / 1000f;
         bag = transform.Find("Item_Duffel_Bag").gameObject;
         bagAfter = transform.Find("___TEMP - ItemDuffelBagAfter").gameObject;
+        rifle.SetActive(true);
     }
     void Update()
     {
