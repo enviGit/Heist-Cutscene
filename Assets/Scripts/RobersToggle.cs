@@ -5,15 +5,22 @@ public class RobersToggle : MonoBehaviour
     public GameObject panda;
     public GameObject paperBag;
     public GameObject driver;
+    public GameObject tempClown;
+    public GameObject tempPanda;
+    public GameObject bag;
+    public GameObject bagAfter;
     public float waitTimeSeconds;
     public int waitTimeMilliseconds;
     private float waitTime;
 
     void Start()
     {
-        clown.SetActive(false);
         panda.SetActive(false);
+        clown.SetActive(false);
         paperBag.SetActive(false);
+        driver.SetActive(true);
+        tempPanda.SetActive(true);
+        tempClown.SetActive(true);
         waitTime = waitTimeSeconds + waitTimeMilliseconds / 1000f;
         Invoke("TurnOff", waitTime - 0.1f);
         Invoke("TurnOn", waitTime);
@@ -22,6 +29,9 @@ public class RobersToggle : MonoBehaviour
     void TurnOff()
     {
         driver.SetActive(false);
+        tempClown.SetActive(false);
+        tempPanda.SetActive(false);
+        bag.SetActive(false);
     }
     void TurnOn()
     {
@@ -35,5 +45,8 @@ public class RobersToggle : MonoBehaviour
         panda.SetActive(false);
         paperBag.SetActive(false);
         driver.SetActive(true);
+        tempClown.SetActive(true);
+        tempPanda.SetActive(true);
+        bagAfter.SetActive(true);
     }
 }
