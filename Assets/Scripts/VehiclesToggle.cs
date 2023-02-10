@@ -9,7 +9,6 @@ public class VehiclesToggle : MonoBehaviour
 
     void Start()
     {
-        //helicopter.SetActive(false);
         foreach(var vehicle in vehicles)
             vehicle.SetActive(false);
     }
@@ -20,6 +19,5 @@ public class VehiclesToggle : MonoBehaviour
         if(timer >= waitTime)
             foreach(var vehicle in vehicles)
                 vehicle.SetActive(true);
-            //helicopter.SetActive(true);
     }
 }
