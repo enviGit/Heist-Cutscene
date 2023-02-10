@@ -1,5 +1,5 @@
 using UnityEngine;
-public class RobersToggle : MonoBehaviour
+public class RobbersToggle : MonoBehaviour
 {
     public GameObject clown;
     public GameObject panda;

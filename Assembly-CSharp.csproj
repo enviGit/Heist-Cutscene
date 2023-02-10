@@ -62,8 +62,11 @@
     <Compile Include="Assets\Scripts\TEMP_FilmGrainController.cs" />
     <Compile Include="Assets\Scripts\SafeLootingToggle.cs" />
     <Compile Include="Assets\Scripts\WeaponToggle.cs" />
-    <Compile Include="Assets\Scripts\RobersToggle.cs" />
+    <Compile Include="Assets\Scripts\RobbersToggle.cs" />
     <Compile Include="Assets\Scripts\BagsToggle.cs" />
+    <Compile Include="Assets\Scripts\VehiclesToggle.cs" />
+    <Compile Include="Assets\Scripts\RotatePropeller.cs" />
+    <Compile Include="Assets\Scripts\MoveHelicopter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
