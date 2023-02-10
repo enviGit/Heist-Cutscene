@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 736
     width: 1468
     height: 211
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 97
+  controlID: 201
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,8 +120,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 556
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 300}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
-  controlID: 98
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 99
+  controlID: 19
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -335,7 +335,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 32438
+  m_LastSelectedObjectID: 27254
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -372,7 +372,7 @@ MonoBehaviour:
     m_IsLocked: 1
   m_SequenceHierarchy: {fileID: 0}
   m_SequencePath:
-    m_SelectionRoot: 26630
+    m_SelectionRoot: 26668
     m_SubElements: []
 --- !u!114 &15
 MonoBehaviour:
@@ -416,22 +416,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/PolygonHeist/Prefab/Weapons
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/PolygonHeist/Prefab/Weapons
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Git\Labs-Cutscenes-Heist
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 309}
-    m_SelectedIDs: 18900000
-    m_LastClickedID: 36888
-    m_ExpandedIDs: 00000000608e0000628e0000648e0000668e0000688e000000ca9a3b
+    scrollPos: {x: 0, y: 245}
+    m_SelectedIDs: fa930000
+    m_LastClickedID: 37882
+    m_ExpandedIDs: 00000000c2910000c4910000c691000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,7 +459,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000608e0000628e0000648e0000668e0000688e0000
+    m_ExpandedIDs: 00000000c2910000c4910000c6910000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -486,8 +486,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000169b0000ea850000aa8e0300fa910300b2b00000b0b2000050b20000f0b1000016b2000048bc0000b8bd00003ab2000004b2000070bd000092bc000062740100cab1000028b20000bcbd0000f85a0100
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000169b0000ea850000aa8e0300fa910300b2b00000b0b2000050b20000f0b1000016b2000048bc0000b8bd00003ab2000004b2000070bd000092bc000062740100cab1000028b20000bcbd0000f85a0100580a0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -511,7 +511,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 73}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -588,10 +588,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 278}
-      m_SelectedIDs: b6e6fbff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: eafaffffec5c0000ca62000018630000d66300006a640000766a0000c46a0000566e0000787e00009a7e0000ac7e0000b27e0000bc7e0000ca7e0000d47e0000a4800000d8800000f8800000e6820000
+      m_ExpandedIDs: eafaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -841,9 +841,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.048796, y: -37.84382, z: -65.607445}
+    m_Target: {x: -2.1464758, y: -1.6630802, z: 26.866539}
     speed: 2
-    m_Value: {x: -13.048796, y: -37.84382, z: -65.607445}
+    m_Value: {x: -2.1464758, y: -1.6630802, z: 26.866539}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -890,13 +890,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.048574835, y: -0.97702384, z: 0.21615173, w: 0.0055753076}
+    m_Target: {x: 0.23231952, y: 0.44619024, z: -0.068738535, w: 0.86373883}
     speed: 2
-    m_Value: {x: -0.04849375, y: -0.9755499, z: 0.21429117, w: 0.0054928525}
+    m_Value: {x: 0.23231952, y: 0.44619024, z: -0.06873853, w: 0.8637388}
   m_Size:
-    m_Target: 56.012302
+    m_Target: 3.3056915
     speed: 2
-    m_Value: 53.60029
+    m_Value: 3.3056915
   m_Ortho:
     m_Target: 0
     speed: 2
