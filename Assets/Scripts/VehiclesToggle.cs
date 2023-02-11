@@ -16,8 +16,10 @@ public class VehiclesToggle : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer >= waitTime)
-            foreach(var vehicle in vehicles)
-                vehicle.SetActive(true);
+        if(timer >= waitTime - 2f)
+            vehicles[0].SetActive(true);
+        if (timer >= waitTime)
+            for (int i = 1; i <= vehicles.Length - 1; i++)
+                vehicles[i].SetActive(true);
     }
 }

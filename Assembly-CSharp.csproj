@@ -60,12 +60,12 @@
     <Compile Include="Assets\Scripts\TEMP_SoundController.cs" />
     <Compile Include="Assets\Samples\Sequences\1.0.4\Scene Management\Script\AssignDefaultMaterial.cs" />
     <Compile Include="Assets\Scripts\TEMP_FilmGrainController.cs" />
+    <Compile Include="Assets\Scripts\RotatePropeller.cs" />
     <Compile Include="Assets\Scripts\SafeLootingToggle.cs" />
     <Compile Include="Assets\Scripts\WeaponToggle.cs" />
     <Compile Include="Assets\Scripts\RobbersToggle.cs" />
-    <Compile Include="Assets\Scripts\BagsToggle.cs" />
     <Compile Include="Assets\Scripts\VehiclesToggle.cs" />
-    <Compile Include="Assets\Scripts\RotatePropeller.cs" />
+    <Compile Include="Assets\Scripts\BagsToggle.cs" />
     <Compile Include="Assets\Scripts\MoveHelicopter.cs" />
   </ItemGroup>
   <ItemGroup>
