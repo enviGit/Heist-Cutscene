@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\BagsToggle.cs" />
     <Compile Include="Assets\Scripts\MoveHelicopter.cs" />
     <Compile Include="Assets\Scripts\LootController.cs" />
+    <Compile Include="Assets\Scripts\RotateWheels.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

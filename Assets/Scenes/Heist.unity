@@ -11232,6 +11232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 279151517}
   - component: {fileID: 279151518}
+  - component: {fileID: 279151519}
   m_Layer: 0
   m_Name: Vehicles
   m_TagString: Untagged
@@ -11277,6 +11278,39 @@ MonoBehaviour:
   - {fileID: 1323444557}
   - {fileID: 575910512}
   waitTime: 58
+--- !u!114 &279151519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279151516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a689ba0d712ac54ab9f0f9955122dce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontWheels:
+  - {fileID: 564366009}
+  - {fileID: 564182101}
+  - {fileID: 8947383473770521613}
+  - {fileID: 8947383473770501409}
+  - {fileID: 1323466465}
+  - {fileID: 1323438029}
+  - {fileID: 575923676}
+  - {fileID: 575902960}
+  backWheels:
+  - {fileID: 564381853}
+  - {fileID: 564338811}
+  - {fileID: 8947383473770413563}
+  - {fileID: 8947383473770511211}
+  - {fileID: 1323411223}
+  - {fileID: 1323442567}
+  - {fileID: 575683626}
+  - {fileID: 575912634}
+  maxAngle: 30
+  rotationXSpeed: 800
+  rotationYSpeed: 25
 --- !u!1001 &279463170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21455,6 +21489,7 @@ GameObject:
   - component: {fileID: 563319525}
   - component: {fileID: 562180653}
   - component: {fileID: 135752319260864651}
+  - component: {fileID: 135752319260864652}
   m_Layer: 0
   m_Name: SM_Veh_SwatVan_Wheel_fr
   m_TagString: Untagged
@@ -21530,6 +21565,7 @@ GameObject:
   - component: {fileID: 563218255}
   - component: {fileID: 562181307}
   - component: {fileID: 135298309029486599}
+  - component: {fileID: 135298309029486600}
   m_Layer: 0
   m_Name: SM_Veh_SwatVan_Wheel_fl
   m_TagString: Untagged
@@ -37131,7 +37167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
   m_LocalRotation: {x: 0.2228703, y: 0.060363125, z: -0.04816334, w: 0.97178465}
-  m_LocalPosition: {x: -8.33, y: 3.72, z: 16.26}
+  m_LocalPosition: {x: -15.46, y: 4.2, z: 17.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39566,6 +39602,10 @@ PlayableDirector:
     value: {fileID: 1338350755}
   - key: {fileID: -3506720646128766528, guid: e14dc73dd392bfb4fa60aa48b2959713, type: 2}
     value: {fileID: 2082619764}
+  - key: {fileID: -4245812507332239509, guid: e14dc73dd392bfb4fa60aa48b2959713, type: 2}
+    value: {fileID: 135752319260864652}
+  - key: {fileID: 1573669976559727785, guid: e14dc73dd392bfb4fa60aa48b2959713, type: 2}
+    value: {fileID: 135298309029486600}
   m_ExposedReferences:
     m_References:
     - 4a30dc9971f844e43aac4792b87a0699: {fileID: 2075586541}
@@ -54167,7 +54207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1496251869
 Transform:
   m_ObjectHideFlags: 0
@@ -94280,6 +94320,26 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.51205343
   m_Center: {x: 0.000000052154064, y: 0, z: 0}
+--- !u!95 &135298309029486600
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564366009}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!135 &135379291947515971
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -94332,6 +94392,26 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.51205343
   m_Center: {x: 0, y: 0, z: -0.00000011920929}
+--- !u!95 &135752319260864652
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564182101}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!135 &135769733838967874
 SphereCollider:
   m_ObjectHideFlags: 0
