@@ -24059,8 +24059,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610758471}
-  m_LocalRotation: {x: 0.00000024744935, y: 0.73414963, z: -0.00000026755248, w: 0.6789878}
-  m_LocalPosition: {x: -2.6259909, y: 0.5287571, z: 16.412035}
+  m_LocalRotation: {x: 0.0000012691928, y: -0.14660569, z: 0.00000018810336, w: 0.98919505}
+  m_LocalPosition: {x: 1.1428213, y: 0.5287571, z: 14.571978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24560,7 +24560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447598, guid: ed14c94b476509240be0121f8ea91a76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.75
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 447598, guid: ed14c94b476509240be0121f8ea91a76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24568,7 +24568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447598, guid: ed14c94b476509240be0121f8ea91a76, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 1.028
       objectReference: {fileID: 0}
     - target: {fileID: 447598, guid: ed14c94b476509240be0121f8ea91a76, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27015,8 +27015,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679438716}
-  m_LocalRotation: {x: -0.0000317879, y: 0.99622077, z: -0.00036459943, w: -0.08685633}
-  m_LocalPosition: {x: -1.4296503, y: 0.5789082, z: -6.32378}
+  m_LocalRotation: {x: -0.012356733, y: 0.9869557, z: -0.13051715, w: -0.09344018}
+  m_LocalPosition: {x: 0.3373518, y: 0.717619, z: -0.622345}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30500,8 +30500,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793137410}
-  m_LocalRotation: {x: -0.0006466395, y: 0.7685104, z: 0.0007766815, w: 0.6398366}
-  m_LocalPosition: {x: 12.6068735, y: 0.53348744, z: 4.23724}
+  m_LocalRotation: {x: -0.003456006, y: 0.87355345, z: -0.006203311, w: -0.48667645}
+  m_LocalPosition: {x: 1.2264576, y: 0.54332787, z: 5.3735886}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43848,8 +43848,8 @@ MonoBehaviour:
   lootingInProgress: {fileID: 1496251868}
   rifle: {fileID: 897077685}
   rifleAfter: {fileID: 2135736807}
-  waitTimeSeconds: 6
-  waitTimeMilliseconds: 0
+  waitTimeSeconds: 49
+  waitTimeMilliseconds: 600
 --- !u!1001 &1190277434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51140,8 +51140,8 @@ MonoBehaviour:
   - {fileID: 735290513}
   - {fileID: 813141523}
   - {fileID: 1872518663}
-  secondsForRestItems: 38
-  millisecondsForRestItems: 0
+  secondsForRestItems: 45
+  millisecondsForRestItems: 300
 --- !u!1 &1396197112
 GameObject:
   m_ObjectHideFlags: 0
@@ -75455,8 +75455,8 @@ MonoBehaviour:
   lootingInProgress: {fileID: 1496251868}
   rifle: {fileID: 897077685}
   rifleAfter: {fileID: 2135736807}
-  waitTimeSeconds: 6
-  waitTimeMilliseconds: 0
+  waitTimeSeconds: 49
+  waitTimeMilliseconds: 600
 --- !u!1001 &2136256648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75640,7 +75640,7 @@ MonoBehaviour:
   beforeLooting: {fileID: 2142000499}
   lootingInProgress: {fileID: 1496251868}
   lootingWaitTimeSeconds: 35
-  lootingWaitTimeMilliseconds: 300
+  lootingWaitTimeMilliseconds: 370
 --- !u!1001 &2142578831
 PrefabInstance:
   m_ObjectHideFlags: 0
