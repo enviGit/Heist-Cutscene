@@ -57,7 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraFollowBullet.cs" />
-    <Compile Include="Assets\Scripts\JewelleryToggle.cs" />
     <Compile Include="Assets\Scripts\BulletRotation.cs" />
     <Compile Include="Assets\Samples\Sequences\1.0.4\Scene Management\Script\AssignDefaultMaterial.cs" />
     <Compile Include="Assets\Scripts\RotateWheels.cs" />
