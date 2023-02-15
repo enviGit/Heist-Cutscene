@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MoveHelicopter : MonoBehaviour
+public class HelicopterControl : MonoBehaviour
 {
     public Transform target1;
     public Transform target2;

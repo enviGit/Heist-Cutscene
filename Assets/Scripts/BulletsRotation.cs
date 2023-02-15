@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BulletRotation : MonoBehaviour
+public class BulletsRotation : MonoBehaviour
 {
     public float rotationSpeed;
     public Vector3 rotationAxis = Vector3.forward;

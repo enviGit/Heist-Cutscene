@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class CameraFollowBullet : MonoBehaviour
+public class CameraFollowingTheBullet : MonoBehaviour
 {
     public Transform bulletTransform;
-    public float cameraSpeed; 
+    public float cameraSpeed;
     private Vector3 cameraOffset;
 
     private void Start()
@@ -16,4 +16,3 @@ public class CameraFollowBullet : MonoBehaviour
         transform.position = Vector3.Lerp(transform.position, targetPosition, cameraSpeed * Time.deltaTime);
     }
 }
-

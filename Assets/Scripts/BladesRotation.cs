@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RotatePropeller : MonoBehaviour
+public class BladesRotation : MonoBehaviour
 {
     public GameObject backBlade;
     public GameObject mainBlade;
