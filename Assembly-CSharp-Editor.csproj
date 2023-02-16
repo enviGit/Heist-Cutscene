@@ -56,8 +56,8 @@
     <Analyzer Include="D:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Tools\TimelineSubtitles\Editor\NarratorSubtitlesLineAssetInspector.cs" />
     <Compile Include="Assets\Tools\TimelineSubtitles\Editor\SubtitleClipNamesUpdater.cs" />
+    <Compile Include="Assets\Tools\TimelineSubtitles\Editor\NarratorSubtitlesLineAssetInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -59,15 +59,15 @@
     <Compile Include="Assets\Scripts\CameraFollowingTheBullet.cs" />
     <Compile Include="Assets\Scripts\BulletsRotation.cs" />
     <Compile Include="Assets\Samples\Sequences\1.0.4\Scene Management\Script\AssignDefaultMaterial.cs" />
-    <Compile Include="Assets\Scripts\WheelsRotation.cs" />
-    <Compile Include="Assets\Scripts\BladesRotation.cs" />
-    <Compile Include="Assets\Scripts\CameraRotation.cs" />
-    <Compile Include="Assets\Scripts\HelicopterControl.cs" />
-    <Compile Include="Assets\Scripts\SkyboxChanger.cs" />
-    <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesLine.cs" />
-    <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesLineBehaviour.cs" />
     <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesLineMixer.cs" />
     <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesTrack.cs" />
+    <Compile Include="Assets\Scripts\WheelsRotation.cs" />
+    <Compile Include="Assets\Scripts\BladesRotation.cs" />
+    <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesLine.cs" />
+    <Compile Include="Assets\Scripts\CameraRotation.cs" />
+    <Compile Include="Assets\Scripts\HelicopterControl.cs" />
+    <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesLineBehaviour.cs" />
+    <Compile Include="Assets\Scripts\SkyboxChanger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
