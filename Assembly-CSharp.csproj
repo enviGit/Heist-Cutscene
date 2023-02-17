@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{51F81DEC-C4C1-7063-679A-A342BF30012F}</ProjectGuid>
+    <ProjectGuid>{D5BBF6C3-2A2A-3F03-96D6-250FB912A72A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,23 +56,23 @@
     <Analyzer Include="D:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\CameraFollowingTheBullet.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
     <Compile Include="Assets\Scripts\BulletsRotation.cs" />
     <Compile Include="Assets\Samples\Sequences\1.0.4\Scene Management\Script\AssignDefaultMaterial.cs" />
     <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesLineMixer.cs" />
     <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesTrack.cs" />
     <Compile Include="Assets\Scripts\WheelsRotation.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
     <Compile Include="Assets\Scripts\BladesRotation.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesLine.cs" />
     <Compile Include="Assets\Scripts\CameraRotation.cs" />
     <Compile Include="Assets\Scripts\HelicopterControl.cs" />
     <Compile Include="Assets\Tools\TimelineSubtitles\SubtitlesLineBehaviour.cs" />
     <Compile Include="Assets\Scripts\SkyboxChanger.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -859,7 +859,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="HDRPSamples.csproj">
-      <Project>{883784BD-DAFC-B3D6-1A82-079CDE627C84}</Project>
+      <Project>{90E35432-E830-8CF8-A334-8CB5848D2F34}</Project>
       <Name>HDRPSamples</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{77EC0350-FA29-49DC-C877-93BF2CE15932}</ProjectGuid>
+    <ProjectGuid>{22CC5E53-9524-A0E3-4778-EC9239711E2F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -849,11 +849,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{51F81DEC-C4C1-7063-679A-A342BF30012F}</Project>
+      <Project>{D5BBF6C3-2A2A-3F03-96D6-250FB912A72A}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="HDRPSamples.csproj">
-      <Project>{883784BD-DAFC-B3D6-1A82-079CDE627C84}</Project>
+      <Project>{90E35432-E830-8CF8-A334-8CB5848D2F34}</Project>
       <Name>HDRPSamples</Name>
     </ProjectReference>
   </ItemGroup>
