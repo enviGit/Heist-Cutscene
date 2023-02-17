@@ -3,7 +3,7 @@ using UnityEngine;
 public class CameraFollowingTheBullet : MonoBehaviour
 {
     public Transform bulletTransform;
-    public float cameraSpeed;
+    public float cameraSpeed = 35f;
     private Vector3 cameraOffset;
 
     private void Start()

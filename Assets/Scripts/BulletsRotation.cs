@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BulletsRotation : MonoBehaviour
 {
-    public float rotationSpeed;
-    public Vector3 rotationAxis = Vector3.forward;
+    public float rotationSpeed = 500f;
+    public Vector3 rotationAxis = Vector3.up;
 
     private void Update()
     {

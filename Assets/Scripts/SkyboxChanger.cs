@@ -3,7 +3,7 @@ using UnityEngine;
 public class SkyboxChanger : MonoBehaviour
 {
     public Material skyboxMaterial;
-    public float timeToChange;
+    public float timeToChange = 49.05f;
     private float timer;
 
     void Update()

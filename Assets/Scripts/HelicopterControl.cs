@@ -4,10 +4,10 @@ public class HelicopterControl : MonoBehaviour
 {
     public Transform target1;
     public Transform target2;
-    public float speed = 10f;
+    public float speed = 8f;
     public float rotationSpeed = 3f;
-    public float rotationThreshold = 3f;
-    public float liftOffHeight = 1f;
+    public float rotationThreshold = 15f;
+    public float liftOffHeight = 7f;
     private int currentTarget = 1;
     private Vector3 direction;
     private Quaternion targetRotation;

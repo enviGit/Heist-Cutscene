@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraRotation : MonoBehaviour
 {
-    public float rotationSpeed;
+    public float rotationSpeed = 1f;
     private bool rotateLeft = true;
 
     private void Update()
